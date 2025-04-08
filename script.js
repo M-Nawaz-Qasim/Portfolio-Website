@@ -38,16 +38,16 @@ function inlen() {
     toggle = !toggle;
 }
 
-// var image = document.getElementById('change');
+var image = document.getElementById('change');
 
-// function Changeme() {
-//     if (document.body.classList.contains('dark')) {
-//         image.src = 'moon.svg'; 
-//     } else {
-//         image.src = 'sun.svg'; 
-//     }
-//     document.body.classList.toggle("dark");
-// }
+function Changeme() {
+    if (document.body.classList.contains('dark')) {
+        image.src = 'moon.svg'; 
+    } else {
+        image.src = 'sun.svg'; 
+    }
+    document.body.classList.toggle("dark");
+}
 
 
 
